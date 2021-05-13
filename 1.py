@@ -1,6 +1,7 @@
-Edad = input("Ingrese su edad")
+Edad = input("Ingrese su edad:  ")
 
-if Edad is range(0,17):
-    print("Mayor de edad...")
+if int(Edad) is range(0,18):
+    print("Mayor de edad")
 else:
  print("menor")
+
